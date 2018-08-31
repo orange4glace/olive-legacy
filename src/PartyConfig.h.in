@@ -1,0 +1,3 @@
+// the configured options and settings for Party
+#define Party_VERSION_MAJOR @Party_VERSION_MAJOR@
+#define Party_VERSION_MINOR @Party_VERSION_MINOR@
