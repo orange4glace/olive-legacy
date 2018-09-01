@@ -5,22 +5,19 @@
 
 #include "gfx/vector2i.h"
 
-namespace ui {
-class Layer
-}
-
 namespace APP_NAME {
 
 namespace gui {
 
 class Window;
 
-class MainWindow : public ui::Layer {
+class MainWindow : public Window {
 public:
-  MainWindow(int width, int height);
+  MainWindow();
+
+  void Draw() override;
 
 private:
-  std::unique_ptr<TimelineWindow*> timeline_window_;
 
 } // class MainWindow
 

@@ -7,9 +7,9 @@ namespace gfx {
 
 struct Flex {
 
-int flex_basis;
-float flex_shrink;
-float flex_grow;
+int basis;
+float shrink;
+float grow;
 
 }
 

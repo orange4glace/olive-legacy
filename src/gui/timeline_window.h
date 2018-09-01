@@ -13,6 +13,8 @@ public:
     
   }
 
+  void Draw() override;
+
 private:
 
 } // class MainWindow
